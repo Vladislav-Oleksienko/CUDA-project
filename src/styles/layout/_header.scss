@@ -1,0 +1,120 @@
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header {
+  .header {
+    width: 100%;
+  }
+  .nav {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+
+    @media only screen and (max-width: 480px) {
+      display: inline-block;
+      padding: 10px;
+      margin: 0 auto;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 720px) {
+      margin: 0 auto;
+    }
+
+  }
+
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and (max-width: 480px) {
+      display: flex;
+      max-width: 200px;
+      align-items: center;
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 720px) {
+      max-width: 700px;
+      align-items: center;
+      text-align: center;
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+  }
+
+  .nav-link {
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 3px;
+    margin-left: 20px;
+    vertical-align: top;
+
+    @media only screen and (max-width: 480px) {
+      display: block;
+      max-width: 120px;
+      text-align: center;
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 720px) {
+      padding: 3px 12px;
+      max-width: 120px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+  .logo {
+    width: 117px;
+    height: 37px;
+    cursor: pointer;
+
+    @media only screen and (max-width: 480px) {
+      display: flex;
+      max-width: 220px;
+      width: 100%;
+      margin-left: 30px;
+      text-align: center;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 720px) {
+      display: block;
+      max-width: 720px;
+      width: 100%;
+      text-align: center;
+    }
+
+    @media only screen and (min-width: 721px) and (max-width: 1070px) {
+      padding-left: 15px;
+    }
+  }
+
+  .intro {
+    max-width: 907px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+
+  .intro-inner {
+    display: block;
+    text-align: center;
+  }
+
+  .intro-title {
+    line-height: 1.3;
+    white-space: pre-line;
+
+    @media only screen and (max-width: 480px) {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}

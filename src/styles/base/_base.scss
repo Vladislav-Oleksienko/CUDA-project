@@ -1,0 +1,33 @@
+/* Turn on font smoothing (does't working in IE) */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**,
+*:before,
+*:after {
+  box-sizing: inherit;
+} */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}

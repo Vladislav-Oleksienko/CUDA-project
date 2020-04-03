@@ -1,0 +1,97 @@
+// HEADER
+
+.header {
+    background-color: #87509c;
+  }
+
+  .nav-link {
+    background-color: #87509c;
+    color: #eeebf0;
+    &:hover {
+        background-color: #643a79;
+      }
+    }
+    
+    .intro-title {
+        color: #f7f3ea;
+    }
+
+    .intro-btn {
+        color: #fff;
+        background-color: #eb7d4b;
+        &:hover {
+        background-color: #c86a40;
+        }
+    }
+
+// First SECTION SERVICES
+
+.services { 
+    background-color: #17c2a4;
+}
+
+.services-title {
+    color: #fff;
+    &:after {
+        background-color: #14a58c;
+    }
+}
+
+.services-text { 
+    color: #eaf7f4;
+}
+
+.about {
+    color: #fff;
+}
+
+
+// Second SECTION TEAM
+
+.team {
+    background-color: #e7f1f8;
+}
+
+.team-header {
+    color: #3c4761;
+}
+
+.team-title {
+    &:after {
+        background-color: #c8d9e5;
+    }
+}
+
+.teammates-title { 
+    color: #27283d;
+}
+
+.teammates-description {
+    color: #30bae7;
+}
+
+.teammates-text {
+    color: #5d677b;
+}
+
+// Third SECTION SKILLS
+
+.skill {
+    background-color: #fff;
+}
+
+.progress-title {
+    color: #3c4761;
+}
+
+// FOOTER
+.footer {
+    background-color: #344b8e;
+}
+
+.footer-links {
+    color: #fff;
+    &:hover {
+        color: #30bae7;
+    }
+}

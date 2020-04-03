@@ -1,0 +1,148 @@
+// HEADER
+
+.nav-link { 
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 480px) {
+        font-size: 30px;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 720px) {
+        font-size: 22px;
+    }
+
+}
+
+.intro-title {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.intro-btn {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+// First SECTION SERVICES
+
+.services-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.services-text {
+    font-size: 18px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 480px) {
+        max-width: 280px;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 720px) {
+        font-size: 20px;
+    }
+}
+
+.about-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 480px) {
+        font-size: 35px;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 720px) {
+        font-size: 28px;
+    }
+}
+
+.about-text {
+    font-size: 16px;
+    font-weight: 300;
+
+    @media only screen and (max-width: 480px) {
+        font-size: 20px;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 720px) {
+        font-size: 17px;
+    }
+}
+
+// Second SECTION TEAM
+
+.team-title {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.team-text {
+    font-size: 18.5px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 480px) {
+        font-size: 20px;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 720px) {
+        font-size: 20px;
+    }
+}
+
+.teammates-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 480px) {
+        font-size: 30px;
+    }
+}
+
+.teammates-description {
+    font-size: 16px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 480px) {
+        font-size: 20px;
+    }
+}
+
+.teammates-text {
+    font-size: 16px;
+    font-weight: 300;
+
+    @media only screen and (max-width: 480px) {
+        font-size: 20px;
+    }
+}
+
+// Third SECTION SKILLS
+
+.progress-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 480px) {
+        display: block;
+        font-size: 30px;
+    }
+}
+
+// FOOTER
+
+.footer-links {
+    font-weight: 600;
+    font-size: 35px;
+
+    @media only screen and (min-width: 481px) and (max-width: 720px) {
+        font-size: 30px;
+    }
+}
